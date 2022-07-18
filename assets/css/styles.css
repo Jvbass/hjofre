@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .hero-section {
+    background-image: url("../images/49063725.jpg");
+    background-repeat: repeat ;
+    background-size:cover;
+    background-position: right;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+  }
+  
+  .image-us img{
+    height: 35em;
+    width: auto;
+  }
+
+  .gallery {
+    max-width: 80rem;
+    height: 50rem;
+  }
+
+  header .nav-resize{
+    
+  }

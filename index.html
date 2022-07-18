@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome  -->
+    <script
+      src="https://kit.fontawesome.com/b6376ba4fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles  -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Hostal Jofre - La Serena Chile</title>
+  </head>
+  <body>
+    <header>
+      <!-- Menu  -->
+      <nav class="navbar navbar-expand-lg fixed-top bg-light text-white nav-resize">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-md-4 py-md-2 logo " href="#"
+            ><h1>Hostal Jofre</h1></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#Nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#Servicios">Servicios</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#Habitaciones">Habitaciones</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#Galeria">Galería</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#Reviews">Reviews</a>
+              </li>
+              <li class="nav-item m-2 bg-warning rounded border-warning">
+                <a class="nav-link text-light" href="#Informacion"
+                  >Informacion</a
+                >
+              </li>
+              <li class="nav-item m-2 bg-danger rounded border-danger">
+                <a class="nav-link text-light" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Menu  -->
+      <!-- Hero  -->
+      <div class="hero-section">
+        <div class="bg-dark bg-opacity-25 py-5 mt-5">
+          <div class="d-flex flex-column align-items-center pt-5">
+            <p
+              class="mt-5 text-white bg-warning bg-opacity-50 rounded text-center px-5 py-2 border border-white border-opacity-50"
+            >
+              Abierto en contingencia Covid-19
+            </p>
+            <h2 class="display-1 fw-bold mb-5 mt-3 text-white text-center">
+              Hostal en La Serena
+            </h2>
+            <p class="text-white display-6">Regimiento Coquimbo 964</p>
+            <div class="mb-5 pb-3 d-flex flex-column align-items-center">
+              <a
+                href="#Personajes"
+                class="btn btn-lg btn-outline-danger text-light my-3 bg-dark bg-opacity-50"
+                >Habitaciones</a
+              >
+              <a
+                href="#Personajes"
+                class="btn btn-lg btn-outline-danger text-light my-3 bg-dark bg-opacity-50"
+                >Contacto</a
+              >
+              <a href="#Contacto" class="btn btn-lg btn-danger text-light"
+                >Reservar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero  -->
+    </header>
+    <main>
+      <!-- Us -->
+      <div id="Nosotros" class="py-5">
+        <div class="container py-5 d-flex flex-column align-items-center">
+          <h3 class="display-6">Bienvenidos.</h3>
+          <div
+            class="container d-flex align-items-center justify-content-center flex-column flex-lg-row py-5"
+          >
+            <div class="image-us rounded container d-flex justify-content-center px-2">
+              <img
+                class="rounded"
+                src="assets/images/245439320.jpg"
+                alt="Hostal Jofre"
+              />
+            </div>
+            <div class="text-us px-5">
+              <p class="px-3 my-5">
+                Hostal Jofré posee una ubicación inmejorable cerca del terminal
+                de buses, plaza de armas y mercados, solo a 15 minutos del
+                aeropuerto. Las habitaciones básicas cuentan con baño privado,
+                agua caliente, tv cable y wifi.
+              </p>
+
+              <p class="px-3 my-5">
+                A 10 minutos del tradicional centro de la ciudad, donde podrás
+                admirar la arquitectura y el paisaje de las bellas plazas del
+                sector más antiguo de la ciudad y del país.
+              </p>
+
+              <p class="px-3 my-5">
+                El principal centro comercial se encuentra a 5 minutos, donde
+                encontraras cine, tiendas, juegos infantiles, patio de comida y
+                café. Y si te falta algo tienes, supermercado y negocios de
+                abarrotes cerca.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Us -->
+      <!-- Service  -->
+      <div id="Servicios" class="text-center bg-light py-5">
+        <h3 class="display-6 py-5">Servicios</h3>
+        <div
+          class="iconos d-flex flex-column flex-md-row justify-content-md-center"
+        >
+          <div class="serv-kitchen my-2 p-2 px-md-5">
+            <i class="fa-solid fa-kitchen-set display-5"></i>
+            <p class="py-3">Cocina</p>
+          </div>
+          <div class="serv-bathroom my-2 p-2 px-md-5">
+            <i class="fa-solid fa-restroom display-5"></i>
+            <p class="py-3">Baño privado y compartido</p>
+          </div>
+          <div class="serv-hotwater my-2 p-2 px-md-5">
+            <i class="fa-solid fa-shower display-5"></i>
+            <p class="py-3">Agua caliente</p>
+          </div>
+          <div class="serv-internet my-2 p-2 px-md-5">
+            <i class="fa-solid fa-house-signal display-5"></i>
+            <p class="py-3">Wifi en todas las areas</p>
+          </div>
+          <div class="serv-bag my-2 p-2 px-md-5">
+            <i class="fa-solid fa-cart-flatbed-suitcase display-5"></i>
+            <p class="py-3">Custodia de equipajes</p>
+          </div>
+        </div>
+      </div>
+      <!-- Service  -->
+      <!-- Rooms       -->
+      <div id="Habitaciones" class="text-center container py-5">
+        <h3 class="display-6 py-5">Habitaciones y precios</h3>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card my-5 mx-4 bg-light shadow">
+              <img
+                src="assets/images/245434163.jpg"
+                class="card-img-top"
+                alt="Habitacion Hostal Jofre La Serena"
+              />
+              <div class="card-body text-start text-dark px-4">
+                <hr />
+                <h5 class="card-title text-center">Individual</h5>
+                <p class="card-text pt-3">
+                  Habitación con baño privado, con cama de 1/12 plaza.
+                </p>
+                <p class="card-text">Equipada para 1 persona.</p>
+                <div class="d-flex justify-content-center py-3">
+                  <a
+                    href="http://jvbass.github.io/MbStnd-page/"
+                    target="_blank"
+                    class="btn btn-outline-dark"
+                    >Ver detalles <i class="fa-solid fa-bed"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card my-5 mx-4 bg-light shadow">
+              <img
+                src="assets/images/245434163.jpg"
+                class="card-img-top"
+                alt="Habitacion Hostal Jofre La Serena"
+              />
+              <div class="card-body text-start text-dark px-4">
+                <hr />
+                <h5 class="card-title text-center">Matrimonial</h5>
+                <p class="card-text pt-3">
+                  Habitación con baño privado y aire acondicionado, con cama de
+                  1/12 plaza.
+                </p>
+                <p class="card-text">Equipada para 1 persona.</p>
+                <div class="d-flex justify-content-center py-3">
+                  <a
+                    href="http://jvbass.github.io/MbStnd-page/"
+                    target="_blank"
+                    class="btn btn-outline-dark"
+                    >Ver detalles <i class="fa-solid fa-bed"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card my-5 mx-4 bg-light shadow">
+              <img
+                src="assets/images/245434163.jpg"
+                class="card-img-top"
+                alt="Habitacion Hostal Jofre La Serena"
+              />
+              <div class="card-body text-start text-dark px-4">
+                <hr />
+                <h5 class="card-title text-center">Doble</h5>
+                <p class="card-text pt-3">
+                  Habitación con baño privado y aire acondicionado, con cama de
+                  1/12 plaza.
+                </p>
+                <p class="card-text">Equipada para 1 persona.</p>
+                <div class="d-flex justify-content-center py-3">
+                  <a
+                    href="http://jvbass.github.io/MbStnd-page/"
+                    target="_blank"
+                    class="btn btn-outline-dark"
+                    >Ver detalles <i class="fa-solid fa-bed"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card my-5 mx-4 bg-light shadow">
+              <img
+                src="assets/images/245434163.jpg"
+                class="card-img-top"
+                alt="Habitacion Hostal Jofre La Serena"
+              />
+              <div class="card-body text-start text-dark px-4">
+                <hr />
+                <h5 class="card-title text-center">Familiar</h5>
+                <p class="card-text pt-3">
+                  Habitación con baño privado, con cama de 2 plazas y una cama
+                  de1 plaza.
+                </p>
+                <p class="card-text">Equipada para 3 personas.</p>
+                <div class="d-flex justify-content-center py-3">
+                  <a
+                    href="http://jvbass.github.io/MbStnd-page/"
+                    target="_blank"
+                    class="btn btn-outline-dark"
+                    >Ver detalles <i class="fa-solid fa-bed"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card my-5 mx-4 bg-light shadow">
+              <img
+                src="assets/images/245434163.jpg"
+                class="card-img-top"
+                alt="Habitacion Hostal Jofre La Serena"
+              />
+              <div class="card-body text-start text-dark px-4">
+                <hr />
+                <h5 class="card-title text-center">Matrimonial</h5>
+                <p class="card-text pt-3">
+                  Habitación con baño privado y aire acondicionado, con cama de
+                  1/12 plaza.
+                </p>
+                <p class="card-text">Equipada para 1 persona.</p>
+                <div class="d-flex justify-content-center py-3">
+                  <a
+                    href="http://jvbass.github.io/MbStnd-page/"
+                    target="_blank"
+                    class="btn btn-outline-dark"
+                    >Ver detalles <i class="fa-solid fa-bed"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Rooms  -->
+      <!-- Gallery -->
+      <div id="Galeria" class=" text-center bg-light py-5">
+        <h3 class="display-6 py-5">Galería</h3>
+        <div
+          id="carouselExampleControls"
+          class="p-4 gallery carousel slide d-flex flex-column align-items-center container d-flex "
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/245434163.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/245439897.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/245433684.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/49063683.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/128343731.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Gallery -->
+      <!-- Info -->
+      <div id="Informacion" class="text-center py-5">
+        <h3 class="display-6 py-5">Información</h3>
+        <div class="card" style="max-width: 500px">
+          <div class="row g-1">
+            <div class="col-sm-5">
+              <img
+                src="images/sample.svg"
+                class="card-img-top h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-sm-7">
+              <div class="card-body">
+                <h5 class="card-title">Check-in / Check-Out</h5>
+                <p class="card-text text-start">
+                  Las habitaciones para la llegada estan habilitadas desde las
+                  14:00 pm. Consultar disponibilidad si necesita ingresar en
+                  otro Horario.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="max-width: 500px">
+          <div class="row g-1">
+            <div class="col-sm-5">
+              <img
+                src="images/sample.svg"
+                class="card-img-top h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-sm-7">
+              <div class="card-body">
+                <h5 class="card-title">Coronavirus</h5>
+                <p class="card-text text-start">
+                  Estamos preparados para la contingencia sanitaria actual. Extendimos el tiempo entre la salida y llegada de nuestros huespedes para realizar un aseo profundo en las habitaciones con tal de sanitizar cada rincon y aplicar todas las medidas necesarias para una estadia segura de nuestros pasajeros.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="max-width: 500px">
+              <div class="row g-1">
+                <div class="col-sm-5">
+                  <img
+                    src="images/sample.svg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Utiles de aseo personal</h5>
+                    <p class="card-text text-start">
+                      Para su estadia usted tiene traer sus toallas y utiles de aseo personal, en la Hostal encontrara jabon y shampoo
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="max-width: 500px">
+              <div class="row g-1">
+                <div class="col-sm-5">
+                  <img
+                    src="images/sample.svg"
+                    class="card-img-top h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Estacionamiento</h5>
+                    <p class="card-text text-start">
+                      No contamos con estacionamiento cerrado, sin embargo frente a la Hostal hay espacio para estacionar. Cerca de la Hostal espacio de parking donde puede guardar su automovil durante largo periodo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info -->
+      <div class="reviews"></div>
+
+      <div class="ubicacion"></div>
+
+      <div class="contacto"></div>
+    </main>
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
